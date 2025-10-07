@@ -24,7 +24,7 @@ This assignment compares four search algorithms for robot path planning: Breadth
 
 All algorithms produced the same optimal path length, confirming their ability to find the shortest path. However, they differed in execution time and node expansion. 
 
-<img width="1280" height="720" alt="Search" src="https://github.com/user-attachments/assets/45dc0a6c-9baa-4ad1-8507-c77097e51f06" />
+<img width="1280" height="720" alt="Search" src="https://github.com/user-attachments/assets/35f0e4e3-7f73-45d7-b0e4-6dd80b011963" />
 
 In the simplest case (Test Case 1), DFS was the fastest at 0.000029 seconds, while BFS was slower. The A* variants had slightly higher runtimes but were more efficient in node visits.
 
@@ -48,7 +48,7 @@ Logistic Regression consistently outperformed Naive Bayes in terms of Accuracy, 
 
 Strategy A (Fill Median) performed better across all metrics and models. Strategy B (Drop Column) resulted in a small decline in most performance metrics, particularly for Logistic Regression.
 
-<img width="2670" height="1886" alt="image" src="https://github.com/user-attachments/assets/ef33bf9f-85da-46f3-9854-42b63340a6eb" />
+<img width="1280" height="720" alt="Churn" src="https://github.com/user-attachments/assets/91456fdc-960b-4677-b8c3-f3cf61cd85c9" />
 
 Insights Gained: Logistic Regression strikes a better balance between capturing churned customers and minimizing misclassification. Although Naive Bayes has slightly better ROC-AUC, it sacrifices too much precision. Retaining the TotalCharges feature by imputing missing values, preserved valuable information.
 
@@ -119,7 +119,21 @@ Conclusion: The 3-layer CNN remained more stable and accurate across both graysc
 
 ## Acknowledgements
 
-- CS 6600 Teaching Staff - Dr. Sathyanarayanan Aakur, Assistant Professor - Auburn University
+- CS 6600 Course Instructor - Dr. Sathyanarayanan Aakur, Assistant Professor - Auburn University
 - Open Source Community - For excellent AI/ML libraries and tools
 - Peer Collaborators - For insightful discussions and code reviews
 - Generative AI including ChatGPT, Deepseek and Co-pilot - For debugging and formatting the codebase. 
+
+## Citation
+
+If you use this repository in your research or find it helpful for your work, please consider citing it using the following BibTeX entry:
+
+```bibtex
+@misc{rahman_ai_coursework_2025,
+  title = {AI Coursework: Search Algorithms, Machine Learning, and Deep Learning Implementations},
+  author = {Rahman, Md Mijanur},
+  year = {2025},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/mdmirah/AI-Coursework-Search.-ML-and-Deep-Learning-}},
+}
