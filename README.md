@@ -14,6 +14,11 @@ The Final project of this coursework has its own reposity here: https://github.c
 
 The final project project implements a multi-agent reinforcement learning system for the Combat Plane environment using PettingZoo and Stable-Baselines3. This project augments the Combat:Plane environment by adding cutom functions for agent and bullet detection to design custom heuristics for offensive, defensive and hybrid agents. By using these custom functions, unique reward functions for offensive, defensive, and hybrid agents are created, tested and validated. We have seen our custom offensive and defensive agents both outperform (As per their designed heuristic) the baseline agent of the Combat: Plane environment. A hybrid agent has also been designed in the codebase which is to be tested in future work.
 
+## Educational Purpose Disclaimer
+This repository contains my implementations from CS 6600, completed in Summer 2025 at Auburn University. I've added extensive original analysis, visualizations, and insights beyond course requirements.
+
+**To current students**: These assignments are valuable learning experiences. Please complete them independently before referencing this code.
+
 ## Assignment 1: Search
 
 **Problem:**
