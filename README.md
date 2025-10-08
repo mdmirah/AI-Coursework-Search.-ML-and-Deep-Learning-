@@ -2,24 +2,24 @@
 
 
 ## Overview
-This repository contains my portfolio for **CS 6600 - Artificial Intelligence** coursework through three main assignments organized in their respective subfolders as follows:
+This repository contains my portfolio for **CS 6600 - Artificial Intelligence** coursework. I have presented three main topics organized in their respective subfolders as follows:
 
-- Assignment 1 - Search
-- Assignment 2 - ML Basics
-- Assignemnt 3 - Deep Learning
+- Search
+- Machine Learning(ML)
+- Deep Learning Applications
 
-Each assignment of the above assignments consists of solving a practical problem using the application relevant theoretical concepts of AI. Also, the results contain with my own performance analysis, visualization, comparison and insights.
+Each topic consists of solving a practical problem using the application relevant theoretical concepts of AI. Also, the results contain with my own performance analysis, visualization, comparison and insights. 
 
 The Final project of this coursework has its own reposity here: https://github.com/mdmirah/Agent-and-Bullet-Detection-in-Combat-Plane/tree/main.
 
-The final project project implements a multi-agent reinforcement learning system for the Combat Plane environment using PettingZoo and Stable-Baselines3. This project augments the Combat:Plane environment by adding cutom functions for agent and bullet detection to design custom heuristics for offensive, defensive and hybrid agents. By using these custom functions, unique reward functions for offensive, defensive, and hybrid agents are created, tested and validated. We have seen our custom offensive and defensive agents both outperform (As per their designed heuristic) the baseline agent of the Combat: Plane environment. A hybrid agent has also been designed in the codebase which is to be tested in future work.
+The final project project implements a multi-agent reinforcement learning system for the Combat Plane environment using PettingZoo and Stable-Baselines3. This project augments the Combat:Plane environment by adding cutom functions for agent and bullet detection to design custom heuristics for offensive, defensive and hybrid agents. 
 
 ## Educational Purpose Disclaimer
 This repository contains my implementations from CS 6600, completed in Summer 2025 at Auburn University. I've added extensive original analysis, visualizations, and insights beyond course requirements.
 
 **To current students**: These assignments are valuable learning experiences. Please complete them independently before referencing this code.
 
-## Assignment 1: Search
+## Search
 
 **Problem:**
 
@@ -41,7 +41,7 @@ The Euclidean heuristic, based on straight-line distance, and the Manhattan heur
 
 In conclusion, A* with the Manhattan heuristic is the most suitable choice for this task. It delivered optimal paths with minimal computational cost. BFS, while correct, scaled poorly with complexity, and DFS, though fast in simple cases, was less reliable. Informed search, particularly with well-chosen heuristics, offers both optimality and scalability, making it ideal for practical path planning.
 
-## Assignment 2: ML Basics
+## Machine Learning(ML)
 
 ### Problem 1:
 
@@ -79,7 +79,7 @@ The elbow method, based on the Within-Cluster Sum of Squares (WCSS), shows a cle
 
 In conclusion, a value of ( k = 32 ) provides the best balance between image reconstruction quality, efficiency, and runtime. If computational speed is a priority, ( k = 4 ) is ideal. For high-fidelity applications where quality matters more than speed, ( k = 64 ) may be be a suitable choice. Higher values of ( k ) from 128 onwards do not justify the high computational cost due to their highly diminished return interms of image reconstruction quality.
 
-## Assignment 3: Deep Learning
+## Deep Learning Applications
 
 ### Problem 1:
 
