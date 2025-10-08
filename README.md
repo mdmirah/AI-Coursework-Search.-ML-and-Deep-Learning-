@@ -2,13 +2,13 @@
 
 
 ## Overview
-This repository contains my complete portfolio for **CS 6600 - Artificial Intelligence** coursework. This repository includes three main assignments organized in their respective subfolders as follows:
+This repository contains my portfolio for **CS 6600 - Artificial Intelligence** coursework through three main assignments organized in their respective subfolders as follows:
 
 - Assignment 1 - Search
 - Assignment 2 - ML Basics
 - Assignemnt 3 - Deep Learning
 
-Each assignment demonstrates practical application of theoretical concepts with performance analysis, results comparison and insights.
+Each assignment of the above assignments consists of solving a practical problem using the application relevant theoretical concepts of AI. Also, the results contain with my own performance analysis, visualization, comparison and insights.
 
 The Final project of this coursework has its own reposity here: https://github.com/mdmirah/Agent-and-Bullet-Detection-in-Combat-Plane/tree/main.
 
