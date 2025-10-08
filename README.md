@@ -12,7 +12,7 @@ Each topic consists of solving a practical problem using the application relevan
 
 The Final project of this coursework has its own reposity here: https://github.com/mdmirah/Agent-and-Bullet-Detection-in-Combat-Plane/tree/main.
 
-The final project project implements a multi-agent reinforcement learning system for the Combat Plane environment using PettingZoo and Stable-Baselines3. This project augments the Combat:Plane environment by adding cutom functions for agent and bullet detection to design custom heuristics for offensive, defensive and hybrid agents. 
+The final project implements a multi-agent reinforcement learning system for the Combat Plane environment using PettingZoo and Stable-Baselines3. It augments the Combat:Plane environment by adding custom functions for agent and bullet detection to design custom heuristics for offensive, defensive and hybrid (Optional and experimental) agents. 
 
 ## Educational Purpose Disclaimer
 This repository contains my implementations from CS 6600, completed in Summer 2025 at Auburn University. I've added extensive original analysis, visualizations, and insights beyond course requirements.
