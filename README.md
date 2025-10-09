@@ -8,7 +8,7 @@ This repository contains my portfolio for **CS 6600 - Artificial Intelligence** 
 - Machine Learning(ML)
 - Deep Learning Applications
 
-Each topic consists of solving a practical problem using the application relevant theoretical concepts of AI. Also, the results contain with my own performance analysis, visualization, comparison and insights. 
+Each topic in presented in a notebook in the form of assignments. The assignment consists of solving a practical problem using the application relevant theoretical concepts of AI. Also, the results contain implementation of the AI tools as well as my own performance analysis, visualization, comparison and insights. 
 
 The Final project of this coursework has its own reposity here: https://github.com/mdmirah/Agent-and-Bullet-Detection-in-Combat-Plane/tree/main.
 
