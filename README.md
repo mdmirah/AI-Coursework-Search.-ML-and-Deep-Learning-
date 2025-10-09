@@ -2,7 +2,7 @@
 
 
 ## Overview
-This repository contains my portfolio for **CS 6600 - Artificial Intelligence** coursework. I have presented three main topics organized in their respective subfolders as follows:
+This repository contains my portfolio for **CS 6600 - Artificial Intelligence** coursework. I have presented three main assignments organized in their respective subfolders as follows:
 
 - Search
 - Machine Learning(ML)
