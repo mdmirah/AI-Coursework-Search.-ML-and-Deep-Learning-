@@ -69,15 +69,20 @@ This problem focused on applying color quantization using k-means clustering to 
 
 <img width="1280" height="720" alt="Aubie" src="https://github.com/user-attachments/assets/e0d84bf4-877e-40c4-89ac-00585156f299" />
 
-The reconstruction error decreases rapidly as the number of clusters ( k ) increases, dropping from 1509.14 at ( k = 2 ) to just 17.12 at ( k = 256 ). However from visual assessment, beyond ( k = 32 ), further gains in quality become barely noticable. So, from ( k = 64 ) and onwards, we can see diminishing returns in terms of error reduction.
+The reconstruction error decreases rapidly as the number of clusters ( `k` ) increases, dropping from 1840.97 at `k = 2` to just 21.05 at `k = 256`. However, from visual assessment, beyond `k = 32`, further gains in quality become barely noticeable. Starting around `k = 64`, we see diminishing returns in terms of error reduction.
 
-In terms of runtime, the algorithm remains relatively fast up to ( k = 4 ), with only slight increase in processing time when compared to ( k = 4 ). After that, the runtime almost doubles as the value of ( k ) doubles. Finally, the processing time reaches 8.14 seconds at ( k = 256 ), which may be computationally expensive depending on the application.
+In terms of runtime, the algorithm remains relatively fast up to `k = 8`, with only a slight increase in processing time. After that, the runtime roughly doubles as `k` doubles, reaching 136.48 seconds at `k = 256`, which may be computationally expensive depending on the application.
 
-Efficiency, defined as the percentage of error reduction per percentage of runtime increase, peaks at ( k = 4 ) with a value of 1.83 when compared to the baseline value for ( k = 2 ) . This means that ( k = 4 ) offers the most cost-effective improvement in quality. Beyond this point, efficiency drops sharply, and values higher than ( k = 32 ) yield only marginal improvements in error at a high computational cost.
+Efficiency, defined as the percentage of error reduction per percentage of runtime increase, peaks at `k = 4` with a value of 0.46 when compared to the baseline value for `k = 2`.  
+This means that `k = 4` offers the most cost-effective improvement in quality. Beyond this point, efficiency drops sharply, and values higher than `k = 32` yield only marginal improvements in error at a high computational cost.
 
-The elbow method, based on the Within-Cluster Sum of Squares (WCSS), shows a clear inflection point between ( k = 16 ) and ( k = 32 ), suggesting that this is the optimal range for balancing cluster compactness and model complexity.
+The elbow method, based on the Within-Cluster Sum of Squares (WCSS), shows a clear inflection point between `k = 16` and `k = 32`, suggesting that this range provides an optimal balance between cluster compactness and model complexity.
 
-In conclusion, a value of ( k = 32 ) provides the best balance between image reconstruction quality, efficiency, and runtime. If computational speed is a priority, ( k = 4 ) is ideal. For high-fidelity applications where quality matters more than speed, ( k = 64 ) may be be a suitable choice. Higher values of ( k ) from 128 onwards do not justify the high computational cost due to their highly diminished return interms of image reconstruction quality.
+**Conclusion:**
+- **Best balance (quality vs. runtime):** `k = 32`  
+- **Most efficient improvement:** `k = 4`  
+- **High-fidelity option:** `k = 64`  
+- **Values ≥ 128:** Offer minimal visual improvement but large computational cost.
 
 ## Deep Learning Applications
 
