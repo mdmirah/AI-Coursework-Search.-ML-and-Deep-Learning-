@@ -8,7 +8,7 @@ This repository contains my portfolio for **CS 6600 - Artificial Intelligence** 
 - Machine Learning(ML)
 - Deep Learning Applications
 
-Dr. Sathyanarayanan Aakur, Assistant Professor - Auburn University - (CS 6600 Course Instructor) is credited for designing the course materials as well as the assignment problems. My contribution comes in the form of preparing the solution notebooks as part of the coursework. The results contain my implementation of the AI tools as well as my own performance analysis, visualization, comparison and insights. 
+Dr. Sathyanarayanan Aakur ([@saakur](https://github.com/saakur), Assistant Professor - Auburn University - (CS 6600 Course Instructor) is credited for designing the course materials as well as the assignment problems. My contribution comes in the form of preparing the solution notebooks as part of the coursework. The results contain my implementation of the AI tools as well as my own performance analysis, visualization, comparison and insights. 
 
 The Final project of this coursework has its own reposity here: https://github.com/mdmirah/Agent-and-Bullet-Detection-in-Combat-Plane/tree/main.
 
