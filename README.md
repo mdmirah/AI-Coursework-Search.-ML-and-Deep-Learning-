@@ -130,6 +130,7 @@ Conclusion: The 3-layer CNN remained more stable and accurate across both graysc
 ## Acknowledgements
 
 - CS 6600 Course Instructor - Dr. Sathyanarayanan Aakur, Assistant Professor - Auburn University.
+- Ayden Kemp - For the teamwork and collaboration on the final project.
 - Open Source Community - For excellent AI/ML libraries and tools.
 - Peer Collaborators - For insightful discussions and code reviews.
 - Generative AI including ChatGPT, Deepseek and Co-pilot - For debugging and formatting the codebase. 
