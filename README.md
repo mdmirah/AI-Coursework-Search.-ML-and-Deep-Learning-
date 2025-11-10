@@ -10,7 +10,7 @@ This repository contains my portfolio for **CS 6600 - Artificial Intelligence** 
 
 Dr. Sathyanarayanan Aakur ([@saakur](https://github.com/saakur)), Assistant Professor - Auburn University - (CS 6600 Course Instructor) is credited for designing the course materials as well as the assignment problems. My contribution comes in the form of preparing the solution notebooks as part of the coursework. The results contain my implementation of the AI tools as well as my own performance analysis, visualization, comparison and insights. 
 
-The Final project of this coursework has its own reposity here: https://github.com/mdmirah/Agent-and-Bullet-Detection-in-Combat-Plane/tree/main. The project was a two man team effort including myself and Ayden Kemp.
+The Final project of this coursework has its own reposity here: https://github.com/mdmirah/Agent-and-Bullet-Detection-in-Combat-Plane/tree/main. The project was a two man team effort including myself and Ayden Kemp ([@aydensairplanes](https://github.com/aydensairplanes))
 
 The final project implements a multi-agent reinforcement learning system for the Combat Plane environment using PettingZoo and Stable-Baselines3. It augments the Combat:Plane environment by adding custom functions for agent and bullet detection to design custom heuristics for offensive, defensive and hybrid (Optional and experimental) agents. 
 
@@ -23,7 +23,11 @@ This repository contains my implementations from CS 6600, completed in Summer 20
 
 **Problem:**
 
-This assignment compares four search algorithms for robot path planning: Breadth-First Search (BFS), Depth-First Search (DFS), and two informed A* variants using Euclidean and Manhattan heuristics. The evaluation, conducted across three increasingly complex test cases, focuses on execution time, path length, and the number of nodes visited.
+This assignment compares four search algorithms for robot path planning: Breadth-First Search (BFS), Depth-First Search (DFS), and two informed A* variants using Euclidean and Manhattan heuristics. The evaluation, conducted across three increasingly complex test cases, focuses on execution time, path length, and the number of nodes visited. To evaluate performance, three test cases were used with increasing graph sizes:
+
+- Case 1: 25 nodes
+- Case 2: 100 nodes
+- Case 3: 1000 nodes
 
 **Results:**
 
@@ -41,11 +45,16 @@ The Euclidean heuristic, based on straight-line distance, and the Manhattan heur
 
 In conclusion, A* with the Manhattan heuristic is the most suitable choice for this task. It delivered optimal paths with minimal computational cost. BFS, while correct, scaled poorly with complexity, and DFS, though fast in simple cases, was less reliable. Informed search, particularly with well-chosen heuristics, offers both optimality and scalability, making it ideal for practical path planning.
 
+**Packages Used:** pandas, networkx, matplotlib, heapq, time, numpy
+
 ## Machine Learning(ML)
 
 ### Problem 1:
 
-This assignemnt is tasked tasked with developing models to predict customer churn for a subscription-based service. Using the provided dataset, the goal is to build two classification models: one using Logistic Regression and the other using Naive Bayes. The task is to compare their performance, interpret the results, and provide insights into customer churn based on findings. Telco Customer Churn dataset is used, which contains customer information such as demographic details, account features, and whether the customer has churned. The target variable is "Churn," indicating whether a customer has left the service.
+This assignemnt is tasked with developing models to predict customer churn for a subscription-based service. Using the provided dataset, the goal is to build two classification models: one using Logistic Regression and the other using Naive Bayes. The task is to compare their performance, interpret the results, and provide insights into customer churn based on findings. Telco Customer Churn dataset is used, which contains customer information such as demographic details, account features, and whether the customer has churned. The target variable is "Churn," indicating whether a customer has left the service. To ensure data quality, two data cleaning strategies were tested:
+
+- Strategy A (Fill Median): Impute missing values using the median.
+- Strategy B (Drop Column): Drop columns containing missing values.
 
 **Results:**
 
@@ -83,6 +92,8 @@ The elbow method, based on the Within-Cluster Sum of Squares (WCSS), shows a cle
 - **Most efficient improvement:** `k = 4`  
 - **High-fidelity option:** `k = 64`  
 - **Values ≥ 128:** Offer minimal visual improvement but large computational cost.
+
+**Packages Used:** numpy, pandas, sklearn, matplotlib, Ipython.display, cv2, googlecolab.pathces, time
 
 ## Deep Learning Applications
 
@@ -127,13 +138,15 @@ Prediction Comparison: Visual analysis of predictions on two test samples reveal
 
 Conclusion: The 3-layer CNN remained more stable and accurate across both grayscale and RGB datasets, while the 6-layer model exhibited inconsistencies likely due to overfitting. The RGB 6-layer model showed specific strengths in complex cases, hinting at the trade-off between model depth and input richness that can influence performance in nuanced ways.
 
+**Packages Used:** nltk, kagglehub, os, pandas, numpy, matplotlib, re, seaborn, sklearn, random, torch, torchvision, google.colab, tensorflow
+
 ## Acknowledgements
 
-- CS 6600 Course Instructor - Dr. Sathyanarayanan Aakur, Assistant Professor - Auburn University.
-- Ayden Kemp - For the teamwork and collaboration on the final project.
+- Dr. Sathyanarayanan Aakur - CS 6600 Course Instructor, Assistant Professor - Auburn University.
+- Ayden Kemp - For the peer-review of this repository, teamwork and collaboration on the final project.
 - Open Source Community - For excellent AI/ML libraries and tools.
 - Peer Collaborators - For insightful discussions and code reviews.
-- Generative AI including ChatGPT, Deepseek and Co-pilot - For debugging and formatting the codebase. 
+- Generative AI including ChatGPT, Deepseek and Co-pilot - For debugging and formatting the codebase. (What a great time to be alive!) 
 
 ## Citation
 
