@@ -146,7 +146,7 @@ Conclusion: The 3-layer CNN remained more stable and accurate across both graysc
 - Ayden Kemp - For the peer-review of this repository, teamwork and collaboration on the final project.
 - Open Source Community - For excellent AI/ML libraries and tools.
 - Peer Collaborators - For insightful discussions and code reviews.
-- Generative AI including ChatGPT, Deepseek and Co-pilot - For debugging and formatting the codebase. (What a great time to be alive!) 
+- Generative AI including ChatGPT, Deepseek and Co-pilot - For initial drafting, debugging and formatting the codebase. (What a great time to be alive!) 
 
 ## Citation
 
